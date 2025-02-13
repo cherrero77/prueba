@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardiokids Barcelona</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+<!-- Header Section -->
+<header class="bg-blue-600 text-white p-6">
+    <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-3xl font-bold">Cardiokids Barcelona</h1>
+        <nav>
+            <a href="#services" class="text-lg mx-2 hover:underline">Servicios</a>
+            <a href="#about" class="text-lg mx-2 hover:underline">Sobre Nosotros</a>
+            <a href="#contact" class="text-lg mx-2 hover:underline">Contacto</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="relative bg-cover bg-center h-screen" style="background-image: url('https://media.istockphoto.com/id/471999295/es/foto/cinco-alegre-para-ni%C3%B1os.jpg?s=1024x1024&w=is&k=20&c=4_loz1unpmte3bkHr5X7fjgGopHALJcAYpyPjZUxHj4=');">
+    <div class="absolute inset-0 bg-blue-600 bg-opacity-75 flex items-center justify-center">
+        <div class="text-center text-white p-6">
+            <h2 class="text-5xl font-bold">Cuidamos del corazón de los más pequeños</h2>
+            <p class="text-2xl mt-4">Especializados en riesgo cardiovascular infantil y prescripción deportiva pediátrica.</p>
+            <a href="#contact" class="mt-8 inline-block bg-white text-blue-600 text-lg px-6 py-3 rounded">Agenda una cita</a>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="bg-gray-200 py-20">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gray-800">Nuestros Servicios</h2>
+        <div class="mt-10 flex flex-wrap justify-center">
+            <div class="bg-white shadow-md rounded-lg p-6 m-4 w-80">
+                <h3 class="text-xl font-bold text-gray-800"><a href="cardiovascular.html">Evaluación del riesgo cardiovascular</a></h3>
+                <p class="text-gray-600 mt-4">Análisis detallado para identificar y tratar factores de riesgo en niños y adolescentes.</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6 m-4 w-80">
+                <h3 class="text-xl font-bold text-gray-800"><a href="prescripcion.html">Prescripción deportiva personalizada</a></h3>
+                <p class="text-gray-600 mt-4">Diseñamos planes de ejercicio adecuados para mejorar la salud cardiovascular de los pequeños.</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6 m-4 w-80">
+                <h3 class="text-xl font-bold text-gray-800"><a href="talleres.html">Talleres educativos</a></h3>
+                <p class="text-gray-600 mt-4">Capacitaciones para familias sobre la importancia del ejercicio y la nutrición en la salud infantil.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="bg-white py-20">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gray-800">Sobre Nosotros</h2>
+        <p class="text-xl text-gray-600 mt-4">En Cardiokids Barcelona, nos dedicamos a proporcionar cuidados especializados en salud cardiovascular para niños. Nuestro objetivo es promover un estilo de vida saludable desde una edad temprana.</p>
+        <div class="mt-10 flex justify-center">
+            <img src="https://media.istockphoto.com/id/1334046740/es/foto/retrato-de-una-feliz-profesora-de-educaci%C3%B3n-f%C3%ADsica-en-el-gimnasio-de-la-escuela.jpg?s=1024x1024&w=is&k=20&c=P0ZUDcN-eKckS32btdLyGR4zdpisy6CPZK6TSX0Oac4=" alt="Profesora de educación física" class="rounded-lg shadow-md w-1/3 mx-2">
+            <img src="https://media.istockphoto.com/id/1804172932/es/foto/celebraciones-ganadoras-en-los-entrenamientos-de-f%C3%BAtbol.jpg?s=1024x1024&w=is&k=20&c=KIXqGMVoB_dec3roRzqfDjddbnKOiC8suxCVRa-uogg=" alt="Celebraciones ganadoras" class="rounded-lg shadow-md w-1/3 mx-2">
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-blue-600 text-white py-20">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold">Contacto</h2>
+        <p class="text-xl mt-4">¿Tienes preguntas? ¡Estamos aquí para ayudarte!</p>
+        <form class="mt-8 max-w-lg mx-auto" action="TU_ENDPOINT_AQUI" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre" class="w-full p-4 mb-4 rounded text-gray-800">
+            <input type="email" name="email" placeholder="Email" class="w-full p-4 mb-4 rounded text-gray-800">
+            <textarea name="mensaje" placeholder="Mensaje" class="w-full p-4 mb-4 rounded text-gray-800 h-32"></textarea>
+            <button type="submit" class="bg-white text-blue-600 text-lg px-6 py-3 rounded">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-gray-800 text-white p-6">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2025 Cardiokids Barcelona. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>
